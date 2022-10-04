@@ -1,0 +1,775 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!--====== Title ======-->
+    <title>Pemerintahan Kabupaten Bandung</title>
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="https://bandungkab.go.id/backend/image/setting/favicon-disdukcasip-kab-bandung.png" type="image/png" />
+    <!--====== Animate Css ======-->
+    <link rel="stylesheet" href="https://bandungkab.go.id/public/frontend/safem/assets/css/animate.min.css">
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="https://bandungkab.go.id/public/frontend/safem/assets/css/bootstrap.min.css" />
+    <!--====== Fontawesome css ======-->
+    <link rel="stylesheet" href="https://bandungkab.go.id/public/frontend/safem/assets/css/font-awesome.min.css" />
+    <!--====== flaticon css ======-->
+    <link rel="stylesheet" href="https://bandungkab.go.id/public/frontend/safem/assets/css/flaticon.css" />
+    <!--====== nice select css ======-->
+    <link rel="stylesheet" href="https://bandungkab.go.id/public/frontend/safem/assets/css/nice-select.css" />
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="https://bandungkab.go.id/public/frontend/safem/assets/css/magnific-popup.css" />
+    <!--====== Owl Carousel css ======-->
+    <link rel="stylesheet" href="https://bandungkab.go.id/public/frontend/safem/assets/css/slick.css" />
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="https://bandungkab.go.id/public/frontend/safem/assets/css/default.css" />
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="https://bandungkab.go.id/public/frontend/safem/assets/css/style.min.css" />
+    <link rel="stylesheet" href="https://bandungkab.go.id/public/frontend/safem/assets/vendor/youtube/player/packages/icons/css/icons.min.css" />
+    <link rel="stylesheet" href="https://bandungkab.go.id/public/frontend/safem/assets/vendor/youtube/player/css/youtube-video-player.min.css" />
+    <style>
+        .instagram-image, .instagram-video, .instagram-sidecar {
+            margin: 0.5% 0.5%;
+            width: 24%;
+            float: left;
+        }
+    </style>
+    <!-- Livewire Styles -->
+<style>
+    [wire\:loading] {
+        display: none;
+    }
+
+    [wire\:offline] {
+        display: none;
+    }
+
+    [wire\:dirty]:not(textarea):not(input):not(select) {
+        display: none;
+    }
+</style>
+    <!-- Livewire Scripts -->
+
+<script src="/livewire/livewire.js?id=d7d975b5d122717a1ee0" data-turbolinks-eval="false"></script>
+<script data-turbolinks-eval="false">
+    if (window.livewire) {
+        console.warn('Livewire: It looks like Livewire\'s @livewireScripts JavaScript assets have already been loaded. Make sure you aren\'t loading them twice.')
+    }
+
+    window.livewire = new Livewire();
+    window.livewire_app_url = '';
+    window.livewire_token = 'xha72at33AEXalHBRJszH9SkU2asOysBhyZrYL7Q';
+
+    /* Make Alpine wait until Livewire is finished rendering to do its thing. */
+    window.deferLoadingAlpine = function (callback) {
+        window.addEventListener('livewire:load', function () {
+            callback();
+        });
+    };
+
+    document.addEventListener("DOMContentLoaded", function () {
+        window.livewire.start();
+    });
+
+    var firstTime = true;
+    document.addEventListener("turbolinks:load", function() {
+        /* We only want this handler to run AFTER the first load. */
+        if  (firstTime) {
+            firstTime = false;
+            return;
+        }
+
+        window.livewire.restart();
+    });
+
+    document.addEventListener("turbolinks:before-cache", function() {
+        document.querySelectorAll('[wire\\:id]').forEach(function(el) {
+            const component = el.__livewire;
+
+            const dataObject = {
+                data: component.data,
+                events: component.events,
+                children: component.children,
+                checksum: component.checksum,
+                locale: component.locale,
+                name: component.name,
+                errorBag: component.errorBag,
+                redirectTo: component.redirectTo,
+            };
+
+            el.setAttribute('wire:initial-data', JSON.stringify(dataObject));
+        });
+    });
+</script>
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+     
+       <!--<div id="preloader">-->
+       <!--     <div>-->
+       <!--         <div></div>-->
+       <!--     </div>-->
+       <!-- </div>-->
+
+
+        <!--====== HEADER PART START ======-->
+        <header class="header-area">
+
+         <div class="header-nav">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="navigation">
+                  <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand logo-mt-neg main-logo" href="https://bandungkab.go.id">
+                      <img src="https://bandungkab.go.id/backend/image/setting/logo-disdukcasip-kab-bandung.png" alt="Pemerintahan Kabupaten Bandung" />
+                    </a>
+                    <a class="navbar-brand sticky-logo" href="https://bandungkab.go.id">
+                      <img src="https://bandungkab.go.id/backend/image/setting/logo-disdukcasip-kab-bandung.png" alt="Pemerintahan Kabupaten Bandung" />
+                    </a>
+                    <!-- logo -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="toggler-icon"></span>
+                    <span class="toggler-icon"></span>
+                    <span class="toggler-icon"></span>
+                  </button>
+                  <!-- navbar toggler -->
+
+                  <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto">
+
+                                                                                                       <li class="nav-item">
+                    <a class="nav-link" href="https://bandungkab.go.id">Home
+                    </a>
+                  </li>
+                                                                                                                                          <li class="nav-item">
+                      <a class="nav-link" href="#">Selayang Pandang
+                        <i class="fal fa-plus"></i>
+                      </a>
+                      <ul class="sub-menu">
+                        <li>
+                                                  <a href="https://bandungkab.go.id/arsip/lambang-dan-arti">Lambang dan Arti</a>
+                                                  <a href="https://bandungkab.go.id/arsip/peta-dan-topografi">Peta</a>
+                                                  <a href="https://bandungkab.go.id/arsip/sejarah-berdirinya-kab-bandung">Sejarah</a>
+                                                  <a href="https://bandungkab.go.id/arsip/visi-dan-misi-kabupaten-bandung">Visi Misi</a>
+                                                  <a href="https://bandungkab.go.id/arsip/profil-pimpinan">Profil Pimpinan</a>
+                                                </li>
+                     </ul>
+                   </li>
+                                                                                                                    <li class="nav-item">
+                    <a class="nav-link" href="https://bandungkab.go.id/news">Berita
+                    </a>
+                  </li>
+                                                                                                                   <li class="nav-item">
+                    <a class="nav-link" href="http://jdih.bandungkab.go.id">JDIH
+                    </a>
+                  </li>
+                                                                                                                   <li class="nav-item">
+                    <a class="nav-link" href="https://bandungkab.go.id/webmail">Web Mail
+                    </a>
+                  </li>
+                                                                                                                   <li class="nav-item">
+                    <a class="nav-link" href="https://elhkpn.kpk.go.id/portal/user/pengumuman_lhkpn/ZUVOdVdHODNabTh5T0VsV2RtZzVlVTVsZW5kTVJuWnVZWGR0ZGpORU9FMVdPRFl3U2tZd1duRkRMMWRQZW1SeE9FZERjbkV2YXpZMVJHaFBjWGt5VkE9PQ==">Elhkpn
+                    </a>
+                  </li>
+                                                      
+                </ul>
+              </div>
+              <!--
+              <div class="navbar-btn d-none d-sm-block">
+                <a class="main-btn" href="#footer">GET IN TOUCH <i class="fal fa-phone"></i></a>
+                <a class="main-btn" href="#products">PRODUCTS <i class="fal fa-archive"></i></a>
+              </div>
+            -->
+          </nav>
+        </div>
+        <!-- navigation -->
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+        <!--====== HEADER PART END ======-->
+        <main>
+
+            
+
+            <!-- component -->
+                <section wire:initial-data="{&quot;id&quot;:&quot;gfbFg1vL603FnV2qYu1h&quot;,&quot;name&quot;:&quot;site.index&quot;,&quot;redirectTo&quot;:false,&quot;locale&quot;:&quot;en&quot;,&quot;events&quot;:[],&quot;eventQueue&quot;:[],&quot;dispatchQueue&quot;:[],&quot;data&quot;:{&quot;page&quot;:1},&quot;children&quot;:[],&quot;checksum&quot;:&quot;6e82f296de24a47a8f65e171177220c57f718869de6341db1fce13536ec69993&quot;}" wire:id="gfbFg1vL603FnV2qYu1h" class="hero-section">
+    <div id="heroSlideActive">
+            <div class="single-hero-slide" style="background-image: url(https://bandungkab.go.id/backend/image/slider/slide-1.png);">
+        <div class="container">
+          <div class="hero-content text-center">
+            <span class="promo-text">
+                        </span>
+           <h1></h1>
+           <div class="btn-wrap">
+            <a class="main-btn" href="#">Selengkapnya<i class="fal fa-plus"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+          <div class="single-hero-slide" style="background-image: url(https://bandungkab.go.id/backend/image/slider/slide-2.png);">
+        <div class="container">
+          <div class="hero-content text-center">
+            <span class="promo-text">
+                        </span>
+           <h1></h1>
+           <div class="btn-wrap">
+            <a class="main-btn" href="#">Selengkapnya<i class="fal fa-plus"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+</section>
+
+<section class="statistics-section bg-cover" style="background-image: url(assets/img/counter-bg.jpg);">
+    <div class="container">
+        <div class="row no-gutters justify-content-between">
+            <div class="col-xl-12 col-lg-12">
+                <div class="row justify-content-between pt-20 pb-20">
+                    <!-- Counetr Loop Start -->
+                                        <div class="col-lg-4 col-sm-4 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="counter-box">
+                            <div class="counter-title">
+                                <span class="counter-num">3,575,982 </span>
+                                <span class="box-count">01</span>
+                            </div>
+                            <p>Jumlah Penduduk</p>
+                        </div>
+                    </div>
+                                        <div class="col-lg-4 col-sm-4 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="counter-box">
+                            <div class="counter-title">
+                                <span class="counter-num">2,494,971 </span>
+                                <span class="box-count">02</span>
+                            </div>
+                            <p>Jumlah Wajib KTP-el</p>
+                        </div>
+                    </div>
+                                        <div class="col-lg-4 col-sm-4 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="counter-box">
+                            <div class="counter-title">
+                                <span class="counter-num">1,208,074 </span>
+                                <span class="box-count">03</span>
+                            </div>
+                            <p>Jumlah Data Keluarga</p>
+                        </div>
+                    </div>
+                                        <!-- End of counter Loop -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--====== STATISTICS PART END ======-->
+
+
+<!--====== ABOUT PART START ======-->
+<section class="about-section pt-130 pb-130">
+    <div class="container">
+        <!-- About Video -->
+        <div class="row align-items-center justify-content-between pt-80">
+            <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".3s">
+                <div class="video-text text-right">
+                    <div class="section-title left-border mb-40">
+                        <h2>Tentang Kami<span>01</span></h2>
+                        <p class="title-tag">Pemerintahan Kabupaten Bandung</p>
+                    </div>
+                    <p>Selamat Datang di Website Pemerintah Kab. Bandung</p>
+                    <a href="https://www.youtube.com/watch?v=y7j5u7fwBK8"
+                    class="watch-video-link popup-video">Lihat Video</a>
+                </div>
+            </div>
+            <div class=" col-lg-6 wow fadeInRight" data-wow-delay=".5s">
+                <div class="video-wrap">
+                    <div class="video-bg bg-cover" style="background-image: url(https://bandungkab.go.id/backend/image/setting" alt=")">
+                        <a href="https://www.youtube.com/watch?v=y7j5u7fwBK8" class="popup-video"><i
+                            class="fas fa-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== ABOUT PART END ======-->
+
+    <!--====== TEAM PART START ======-->
+    <section class="team-section pt-100 pb-70 wow fadeInUp" data-wow-delay=".3s">
+        <div class="container">
+            <div class="section-title text-center both-border mb-50">
+                <h2>Instagram<span>02</span></h2>
+            </div>
+            <div class="team-members-wrap pt-50">
+        
+         <rssapp-magazine id="B72PDQ0jcqnYO7uB"></rssapp-magazine><script src="https://widget.rss.app/v1/magazine.js" type="text/javascript" async></script>
+
+        </div>
+    </div>
+</section>
+
+
+<!--====== BLOG PART START ======-->
+<section class="latest-blog pt-100 pb-50 bg-cover"
+style="background-image: url('https://bandungkab.go.id/frontend/safem/assets/img/blog-section-bg.jpg');">
+<div class="container">
+    <div class="section-title text-center both-border mb-50">
+        <h2>Berita<span>03</span></h2>
+    </div>
+    <!-- Blog Loop -->
+    <div class="row latest-blog-loop pt-50">
+
+                <div class="col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay=".3s">
+            <!-- Single Blog Post -->
+            <div class="single-latest-post">
+                <div class="post-thumb">
+                    <a href="https://bandungkab.go.id/arsip/dinas-lingkungan-hidup-laksanakan-berbagai-kegiatan-aksi-di-das-citarum">
+                        <span class="thumb" style="background-image: url(https://bandungkab.go.id/backend/image/news/middle/dinas-lingkungan-hidup-laksanakan-berbagai-kegiatan-aksi-di-das-citarum.jpg);"></span>
+                    </a>
+                </div>
+                <div class="post-content">
+                    <h4 class="title"><a href="https://bandungkab.go.id/arsip/dinas-lingkungan-hidup-laksanakan-berbagai-kegiatan-aksi-di-das-citarum">Dinas Lingkungan Hidup Laksanakan Berbagai Kegiatan Aksi di DAS Citarum</a></h4>
+                </div>
+                <a href="https://bandungkab.go.id/arsip/dinas-lingkungan-hidup-laksanakan-berbagai-kegiatan-aksi-di-das-citarum" class="post-link"><i class="fal fa-long-arrow-right"></i></a>
+            </div>
+            <!-- End Single Post -->
+        </div>
+                <div class="col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay=".3s">
+            <!-- Single Blog Post -->
+            <div class="single-latest-post">
+                <div class="post-thumb">
+                    <a href="https://bandungkab.go.id/arsip/27-kedai-kopi-dan-pelaku-usaha-di-pagelaran-seni-budaya-dan-bazar-umkm">
+                        <span class="thumb" style="background-image: url(https://bandungkab.go.id/backend/image/news/middle/27-kedai-kopi-dan-pelaku-usaha-di-pagelaran-seni-budaya-dan-bazar-umkm.jpg);"></span>
+                    </a>
+                </div>
+                <div class="post-content">
+                    <h4 class="title"><a href="https://bandungkab.go.id/arsip/27-kedai-kopi-dan-pelaku-usaha-di-pagelaran-seni-budaya-dan-bazar-umkm">27 Kedai kopi dan Pelaku Usaha di Pagelaran Seni Budaya dan Bazar UMKM</a></h4>
+                </div>
+                <a href="https://bandungkab.go.id/arsip/27-kedai-kopi-dan-pelaku-usaha-di-pagelaran-seni-budaya-dan-bazar-umkm" class="post-link"><i class="fal fa-long-arrow-right"></i></a>
+            </div>
+            <!-- End Single Post -->
+        </div>
+                <div class="col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay=".3s">
+            <!-- Single Blog Post -->
+            <div class="single-latest-post">
+                <div class="post-thumb">
+                    <a href="https://bandungkab.go.id/arsip/pemkab-bandung-kembali-gelar-opm-bersubsidi">
+                        <span class="thumb" style="background-image: url(https://bandungkab.go.id/backend/image/news/middle/pemkab-bandung-kembali-gelar-opm-bersubsidi.jpg);"></span>
+                    </a>
+                </div>
+                <div class="post-content">
+                    <h4 class="title"><a href="https://bandungkab.go.id/arsip/pemkab-bandung-kembali-gelar-opm-bersubsidi">Pemkab Bandung Kembali Gelar OPM Bersubsidi </a></h4>
+                </div>
+                <a href="https://bandungkab.go.id/arsip/pemkab-bandung-kembali-gelar-opm-bersubsidi" class="post-link"><i class="fal fa-long-arrow-right"></i></a>
+            </div>
+            <!-- End Single Post -->
+        </div>
+                <div class="col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay=".3s">
+            <!-- Single Blog Post -->
+            <div class="single-latest-post">
+                <div class="post-thumb">
+                    <a href="https://bandungkab.go.id/arsip/bupati-bandung-minta-kepada-para-kepala-desa-sukseskan-program-ptsl">
+                        <span class="thumb" style="background-image: url(https://bandungkab.go.id/backend/image/news/middle/bupati-bandung-minta-kepada-para-kepala-desa-sukseskan-program-ptsl.jpg);"></span>
+                    </a>
+                </div>
+                <div class="post-content">
+                    <h4 class="title"><a href="https://bandungkab.go.id/arsip/bupati-bandung-minta-kepada-para-kepala-desa-sukseskan-program-ptsl">Bupati Bandung Minta Kepada Para Kepala Desa Sukseskan Program PTSL</a></h4>
+                </div>
+                <a href="https://bandungkab.go.id/arsip/bupati-bandung-minta-kepada-para-kepala-desa-sukseskan-program-ptsl" class="post-link"><i class="fal fa-long-arrow-right"></i></a>
+            </div>
+            <!-- End Single Post -->
+        </div>
+                <div class="col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay=".3s">
+            <!-- Single Blog Post -->
+            <div class="single-latest-post">
+                <div class="post-thumb">
+                    <a href="https://bandungkab.go.id/arsip/aksi-serentak-world-clean-up-day-kader-pkk-kabupaten-bandung">
+                        <span class="thumb" style="background-image: url(https://bandungkab.go.id/backend/image/news/middle/aksi-serentak-world-clean-up-day-kader-pkk-kabupaten-bandung.jpg);"></span>
+                    </a>
+                </div>
+                <div class="post-content">
+                    <h4 class="title"><a href="https://bandungkab.go.id/arsip/aksi-serentak-world-clean-up-day-kader-pkk-kabupaten-bandung">Aksi Serentak World Clean Up Day Kader PKK Kabupaten Bandung </a></h4>
+                </div>
+                <a href="https://bandungkab.go.id/arsip/aksi-serentak-world-clean-up-day-kader-pkk-kabupaten-bandung" class="post-link"><i class="fal fa-long-arrow-right"></i></a>
+            </div>
+            <!-- End Single Post -->
+        </div>
+                <div class="col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay=".3s">
+            <!-- Single Blog Post -->
+            <div class="single-latest-post">
+                <div class="post-thumb">
+                    <a href="https://bandungkab.go.id/arsip/bupati-bandung-resmikan-jalan-desa-babakan-ciparay">
+                        <span class="thumb" style="background-image: url(https://bandungkab.go.id/backend/image/news/middle/bupati-bandung-resmikan-jalan-desa-babakan-ciparay.jpg);"></span>
+                    </a>
+                </div>
+                <div class="post-content">
+                    <h4 class="title"><a href="https://bandungkab.go.id/arsip/bupati-bandung-resmikan-jalan-desa-babakan-ciparay">Bupati Bandung Resmikan Jalan Desa Babakan Ciparay</a></h4>
+                </div>
+                <a href="https://bandungkab.go.id/arsip/bupati-bandung-resmikan-jalan-desa-babakan-ciparay" class="post-link"><i class="fal fa-long-arrow-right"></i></a>
+            </div>
+            <!-- End Single Post -->
+        </div>
+        
+    </div>
+    
+            <center>
+        <a class="main-btn text-center" href="/news">Semua Berita<i class="fal fa-plus"></i></a>
+        </center>
+        
+</div>
+</section>
+<!--====== BLOG PART END ======-->
+
+
+<section class="latest-blog pt-100 pb-100 bg-cover"
+style="background-image: url('https://bandungkab.go.id/frontend/safem/assets/img/blog-section-bg.jpg');">
+<div class="container">
+    <div class="section-title text-center both-border mb-50">
+        <h2>Gallery Kegiatan<span>04</span></h2>
+        <p class="title-tag">Youtube</p>
+    </div>
+    <!-- Blog Loop -->
+    <div class="row latest-blog-loop">
+
+        <div id="instagram-feed"></div>
+        <div id="playlist-horizontal"></div>
+
+
+    </div>
+</div>
+</section>
+
+
+<!--====== BRAND AREA START ======-->
+<section class="brand-section">
+    <div class="container">
+        <div class="brand-slide-wrap" id="brandSlide">
+                        <div class="single-brand">
+                <div class="brand-img text-center">
+                    <a href=""><img src="https://bandungkab.go.id/backend/image/promotion/big/1.png" alt="Aplikasi Lapor Pemerintah - Aplikasi Lapor Pemerintah"></a>
+                </div>
+            </div>
+                        <div class="single-brand">
+                <div class="brand-img text-center">
+                    <a href=""><img src="https://bandungkab.go.id/backend/image/promotion/big/2.png" alt="Aplikasi PPID - Aplikasi PPID"></a>
+                </div>
+            </div>
+                        <div class="single-brand">
+                <div class="brand-img text-center">
+                    <a href=""><img src="https://bandungkab.go.id/backend/image/promotion/big/3.png" alt="Website Kabupaten Bandung - Website Kabupaten Bandung"></a>
+                </div>
+            </div>
+                        <div class="single-brand">
+                <div class="brand-img text-center">
+                    <a href=""><img src="https://bandungkab.go.id/backend/image/promotion/big/4.png" alt="Website Provinsi Jawa Barat - Website Provinsi Jawa Barat"></a>
+                </div>
+            </div>
+                        <div class="single-brand">
+                <div class="brand-img text-center">
+                    <a href=""><img src="https://bandungkab.go.id/backend/image/promotion/big/5.png" alt="Kementerian Dalam Negeri - Kementerian Dalam Negeri"></a>
+                </div>
+            </div>
+                        <div class="single-brand">
+                <div class="brand-img text-center">
+                    <a href=""><img src="https://bandungkab.go.id/backend/image/promotion/big/6.png" alt="Website Disdukcasip Provinsi Jawa Barat - Website Disdukcasip Provinsi Jawa Barat"></a>
+                </div>
+            </div>
+                    </div>
+    </div>
+    <div class="shape-one"></div>
+    <div class="shape-two"></div>
+</section>
+<!--====== BRAND AREA END ======-->            <!-- end component -->
+
+        </main>
+
+
+        <!--====== GO TO TOP PART START ======-->
+        <div class="go-top-area">
+            <div class="go-top-wrap">
+                <div class="go-top-btn-wrap">
+                    <div class="go-top go-top-btn">
+                        <i class="fal fa-angle-double-up"></i>
+                        <i class="fal fa-angle-double-up"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====== GO TO TOP PART ENDS ======-->
+        <!--====== FOOTER PART START ======-->
+        <footer id="footer">
+            <div class="footer-widget-area pt-80 pb-40">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-6">
+                         <div id="map" class="main-mapa__item"></div>
+                     </div>
+                     <div class="col-lg-4 col-md-6">
+                        <div class="widget nav-widget d-lg-flex justify-content-lg-center mb-40">
+                            <div>
+                                <h4 class="widget-title">Kontak</h4>
+                                <div class="contact-info">
+                                    <ul>
+                                        <li><i class="far fa-phone"></i>0225892126</li>
+                                        <li><i class="far fa-envelope-open"></i>bag_humas@bandungkab.go.id</li>
+                                    </ul>
+                                    <ul class="social-link">
+                                                                                <li> <a href="https://www.facebook.com/humaskabbandung"><i class="fab fa-facebook-f"></i></a> </li>
+                                                                                                                        <li> <a href="https://twitter.com/HumasKabBDG"><i class="fab fa-twitter"></i></a> </li>
+                                                                                                                        <li> <a href="humaskabbdg"><i class="fab fa-instagram"></i></a> </li>
+                                                                                                                        <li> <a href="UCfI5MVFVHuKqiwemQPesKcg"><i class="fab fa-youtube"></i></a> </li>
+                                                                            </ul>
+                                </div>
+                                <HR>
+                                <h4 class="widget-title">Alamat</h4>
+                                <address>
+                                    <span class="text-white">Jalan Raya Soreang KM 17</span>
+                                </address>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="widget nav-widget d-lg-flex justify-content-lg-center mb-40">
+                            <div>
+                                <h4 class="widget-title">Link Terkait</h4>
+                                <ul>
+                                                                    <li><a href="#"/><i class="far fa-arrow-right"></i> Layanan Publik</a></li>
+                                                                    <li><a href="#"/><i class="far fa-arrow-right"></i> Administrasi Pemerintahan</a></li>
+                                                                    <li><a href="#"/><i class="far fa-arrow-right"></i> PPID</a></li>
+                                                                    <li><a href="#"/><i class="far fa-arrow-right"></i> JDIH</a></li>
+                                                                    <li><a href="#"/><i class="far fa-arrow-right"></i> Perizinan</a></li>
+                                                                    <li><a href="https://www.lapor.go.id/instansi/pemerintah-kabupaten-bandung"/><i class="far fa-arrow-right"></i> Pengaduan</a></li>
+                                                                    <li><a href="#"/><i class="far fa-arrow-right"></i> Statistik</a></li>
+                                                                    <li><a href="#"/><i class="far fa-arrow-right"></i> Website OPD</a></li>
+                                                                    <li><a href="#"/><i class="far fa-arrow-right"></i> Seputar Desa</a></li>
+                                                                    <li><a href="#"/><i class="far fa-arrow-right"></i> UMKM</a></li>
+                                                                    <li><a href="https://play.google.com/store/apps/details?id=com.bedas.tourism"/><i class="far fa-arrow-right"></i> Wisata</a></li>
+                                                                    <li><a href="https://bandungkab.go.id/webmail"/><i class="far fa-arrow-right"></i> Webmail</a></li>
+                                                                    <li><a href="#"/><i class="far fa-arrow-right"></i> E-Katalog  Kab. Bandung</a></li>
+                                                                    <li><a href="http://lpse.bandungkab.go.id/eproc4/lelang"/><i class="far fa-arrow-right"></i> LPSE</a></li>
+                                                                </ul>
+                          </div>
+                      </div>
+                  </div>
+
+
+              </div>
+          </div>
+      </div>
+
+      <div class="copyright-area text-center pt-40 pb-40">
+        <p>Copyright Pemerintahan Kabupaten Bandung 2022</p>
+    </div>
+</footer>
+        <!--====== FOOTER PART END ======-->
+        <!--====== jquery js ======-->
+  <script src="https://bandungkab.go.id/public/frontend/safem/assets/js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://bandungkab.go.id/public/frontend/safem/assets/js/vendor/jquery-1.12.4.min.js"></script>
+  <!--====== Bootstrap js ======-->
+  <script src="https://bandungkab.go.id/public/frontend/safem/assets/js/bootstrap.min.js"></script>
+  <script src="https://bandungkab.go.id/public/frontend/safem/assets/js/popper.min.js"></script>
+  <!--====== Slick js ======-->
+  <script src="https://bandungkab.go.id/public/frontend/safem/assets/js/slick.min.js"></script>
+  <!--====== Isotope js ======-->
+  <script src="https://bandungkab.go.id/public/frontend/safem/assets/js/isotope.pkgd.min.js"></script>
+  <!--====== nice select js ======-->
+  <script src="https://bandungkab.go.id/public/frontend/safem/assets/js/jquery.nice-select.min.js"></script>
+  <!--====== Magnific Popup js ======-->
+  <script src="https://bandungkab.go.id/public/frontend/safem/assets/js/jquery.magnific-popup.min.js"></script>
+  <!--====== counterup js ======-->
+  <script src="https://bandungkab.go.id/public/frontend/safem/assets/js/jquery.counterup.min.js"></script>
+  <!--====== waypoints js ======-->
+  <script src="https://bandungkab.go.id/public/frontend/safem/assets/js/waypoints.min.js"></script>
+  <!--====== inview js ======-->
+  <script src="https://bandungkab.go.id/public/frontend/safem/assets/js/jquery.inview.min.js"></script>
+  <!--====== easypiechart js ======-->
+  <script src="https://bandungkab.go.id/public/frontend/safem/assets/js/jquery.easypiechart.js"></script>
+  <!--====== Wow Js ======-->
+  <script src="https://bandungkab.go.id/public/frontend/safem/assets/js/wow.min.js"></script>
+  <!--====== Main js ======-->
+  <script src="https://bandungkab.go.id/public/frontend/safem/assets/js/main.js"></script>
+  <script src="https://bandungkab.go.id/public/js/app.js"></script>
+  <!--====== Instagram JS ======-->
+  <script src="https://bandungkab.go.id/public/frontend/safem/assets/vendor/instagram/jquery.instagramFeed.min.js"></script>
+  <!--====== YOUTUBE JS ======-->
+  <script type="text/javascript" src="https://bandungkab.go.id/public/frontend/safem/assets/vendor/youtube/player/js/youtube-video-player.jquery.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="https://bandungkab.go.id/public/frontend/safem/assets/vendor/youtube/player/packages/perfect-scrollbar/perfect-scrollbar.css" />
+  <script type="text/javascript" src="https://bandungkab.go.id/public/frontend/safem/assets/vendor/youtube/player/packages/perfect-scrollbar/jquery.mousewheel.js"></script>
+  <script type="text/javascript" src="https://bandungkab.go.id/public/frontend/safem/assets/vendor/youtube/player/packages/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+  <script>
+    (function($){
+      $(window).on('load', function(){
+
+        $.instagramFeed({
+          'username': 'humaskabbdg',
+          'container': "#instagram-feed",
+          'display_profile': false,
+          'display_biography': false,
+          'display_gallery': true,
+          'display_captions': false,
+          'callback': null,
+          'styling': false,
+          'items': 12,
+          'items_per_row': 6,
+          'margin': 0.25
+        });
+
+      });
+
+    })(jQuery);
+    $(document).ready(function() {
+      $("#playlist-horizontal").youtube_video({
+        playlist: false,
+        channel: 'UCfI5MVFVHuKqiwemQPesKcg',
+        user: false,
+        videos: false,
+        max_results: 10,
+        pagination: true,
+        continuous: true,
+        first_video: 0,
+        show_playlist: 'auto',
+        playlist_type: 'horizontal',
+        show_channel_in_playlist:true,
+        show_channel_in_title: true,
+        width: false,
+        show_annotations: false,
+        now_playing_text: 'Now Playing',
+        load_more_text: 'Load More',
+        autoplay: false,
+        force_hd: false,
+        hide_youtube_logo: true,
+        play_control: false,
+        time_indicator: 'full',
+        volume_control: false,
+        share_control: false,
+        fwd_bck_control: true,
+        youtube_link_control: false,
+        fullscreen_control: true,
+        playlist_toggle_control:false,
+        volume: false,
+        show_controls_on_load: true,
+        show_controls_on_pause: true,
+        show_controls_on_play: false,
+        player_vars: {},
+        colors: {
+          'controls_bg': 'rgba(0,0,0,.9)'
+        },
+        require_cookie_accept: false
+      });
+
+    });
+
+  </script>
+  <style type="text/css">
+    .instagram-image{
+      margin: 0.5% 0.5%;
+      width: 24%;
+      float: left;
+    }
+    .instagram-image:hover{
+     transform: scale(1.5);
+   }
+ </style>
+
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+<link rel="stylesheet" href="https://yui.yahooapis.com/pure/0.6.0/pure-min.css"/>
+<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+
+<style type="text/css">
+  #map{height: 400px;}
+</style>
+
+<script type="text/javascript">
+//Init Overlays
+var overlays = {};
+
+//Init BaseMaps
+var basemaps = {
+  OpenStreetMaps: L.tileLayer(
+    "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    {
+      minZoom: 2,
+      maxZoom: 19,
+      id: "osm.streets"
+    }
+    ),
+  "Google": L.tileLayer(
+    "https://mt1.google.com/vt/lyrs=r&x={x}&y={y}&z={z}",
+    {
+      minZoom: 2,
+      maxZoom: 19,
+      id: "google.traffic"
+    }
+    ),
+  "Google-Satellite": L.tileLayer(
+    "https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}",
+    {
+      minZoom: 2,
+      maxZoom: 19,
+      id: "google.satellite"
+    }
+    ),
+  "Google-Hybrid": L.tileLayer(
+    "https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}",
+    {
+      minZoom: 2,
+      maxZoom: 19,
+      id: "google.hybrid"
+    }
+    )
+};
+
+//Map Options
+var mapOptions = {
+  zoomControl: false,
+  attributionControl: false,
+  center: [-7.024856,107.526936],
+  zoom: 10,
+  layers: [basemaps.Google]
+};
+
+  //Render Main Map
+  var map = L.map("map", mapOptions);
+
+  // Location
+  L.marker([-7.024856,107.526936]).addTo(map)
+  .bindPopup("<h5>Pemerintahan Kabupaten Bandung</h5>Jalan Raya Soreang KM 17").openPopup();
+
+  L.circle([-7.024856,107.526936], 250, {
+    color: 'green',
+    fillColor: '#2ecc71',
+    fillOpacity: 0.2
+  }).addTo(map).bindPopup("Lokasi Pemerintahan Kabupaten Bandung");
+
+  //Handle Map click to Display Lat/Lng
+  map.on("click", function(e) {
+    $("#latlng").html(e.latlng.lat + ", " + e.latlng.lng);
+    $("#latlng").show();
+  });
+
+
+</script>
+
+<style>
+  .statistics-section {
+    padding-bottom: 0px;
+}
+</style>
+
+</body>
+</html>
